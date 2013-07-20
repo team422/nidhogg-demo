@@ -3,7 +3,7 @@
 #include "../RobotMap.h"
 
 const float TankDrive::DEADZONE = 0.1;
-const float TankDrive::SPEED_REDUCTION = 0.1;
+const float TankDrive::SPEED_REDUCTION = 0.3;
 
 TankDrive::TankDrive() {
 	Requires(drive);
