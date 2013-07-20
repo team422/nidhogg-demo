@@ -26,9 +26,9 @@ OI::OI():
 	greenButton( new JoystickButton( secondaryJoystick, GC_A ) ),
 	blueButton( new JoystickButton( secondaryJoystick, GC_R ) )
 #else
-	redButton( new JoystickButton( secondaryJoystick, 2 ) ),
-	greenButton( new JoystickButton( secondaryJoystick, 4 ) ),
-	blueButton( new JoystickButton( secondaryJoystick, 3 ) )
+	redButton( new JoystickButton( secondaryJoystick, 4 ) ),
+	greenButton( new JoystickButton( secondaryJoystick, 3 ) ),
+	blueButton( new JoystickButton( secondaryJoystick, 5 ) )
 #endif
 {
 	redButton->WhenPressed( new ControlLights(ControlLights::RED) );
